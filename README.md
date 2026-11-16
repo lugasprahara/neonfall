@@ -1,11 +1,28 @@
-# NEONFALL — Arena Survival
+# neonfall
 
-An original arena-survival action game for the make.fun **best-game-01**
-("Make the best game") bounty. You are the last warden of a neon void.
-The swarm pours in from the dark; your weapons fire on their own — your
-job is to move, survive, gather the light the fallen drop, and choose how
-you evolve. Every 90 seconds the Hollow Star, a vast geometric horror,
-comes to end you. Break it, and the next one is angrier.
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/lugasprahara/neonfall/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/lugasprahara/neonfall/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+NEONFALL is an original arena-survival action game in vanilla JS: you are the last warden of a neon void, your weapons fire on their own, and your job is to move, survive, gather the light the fallen drop, and choose how you evolve — until the Hollow Star comes for you every 90 seconds.
+
+## Run it
+
+```sh
+node serve.ts            # then open http://localhost:8080
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=aes5np1n&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
+
+## The game
+
+You are the last warden of a neon void. The swarm pours in from the dark;
+your weapons fire on their own — your job is to move, survive, gather the
+light the fallen drop, and choose how you evolve. Every 90 seconds the
+Hollow Star, a vast geometric horror, comes to end you. Break it, and the
+next one is angrier.
 
 ## How to play
 
@@ -20,17 +37,9 @@ comes to end you. Break it, and the next one is angrier.
 - **Pause:** `Esc` / `P`. **Mute:** `M`. **Restart after death:** `R` or click.
 - Survive as long as you can; your best time and level are remembered.
 
-## Run it
-
 The game is plain static files under `game/` — no build step, no network.
 Serve it with the included development server (Node 22, standard library
-only):
-
-```sh
-node serve.ts            # then open http://localhost:8080
-```
-
-or with any static file server pointed at `game/`.
+only) as above, or with any static file server pointed at `game/`.
 
 ## Hand it in
 
