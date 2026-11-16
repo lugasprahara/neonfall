@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEONFALL — Arena Survival</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #04020a;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(1200px 700px at 50% 38%, #12082e 0%, #04020a 70%);
+    font-family: system-ui, sans-serif;
+  }
+  canvas {
+    width: min(100vw, 177.78vh);
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+    background: #04020a;
+    box-shadow: 0 0 64px rgba(255, 47, 214, 0.25), 0 0 140px rgba(64, 224, 255, 0.12);
+    border: 1px solid rgba(64, 224, 255, 0.35);
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="960" height="540"></canvas>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
